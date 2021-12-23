@@ -81,14 +81,12 @@ padding-right: 70px;
 
 .hamburger span{background: #fff;height: 3px;width: 100%;display: block;margin-bottom: 5px;}
 
-/* ! Hero */
-
 .hero{
   height: 100vh;
   display: flex;
   width: 100%;
   align-items: center;
-  background:linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)), url('../src/video-back 2.mp4') no-repeat center center;
+  background:linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9));
   background-size: cover;
 }
 
