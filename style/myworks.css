@@ -16,23 +16,19 @@ h1, h2, h3, h4, h5, p{color:#fff; padding-bottom: 30px;}
 
 
 
-html, body, main {
-    height: 100%;
+html, body {
+    height: 1500px;
     width: 100%;
-    margin: 0;
+    background:linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9));
+    background-size: cover;
   }
 
 html{
-        background:linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
-        url('video-back 2.mp4') no-repeat center center;
-        background-size: cover;
         font-family: 'Inter';
         font-weight: bold;
         color: white;
         text-align: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-
+       
       }
 
     h1{
@@ -57,3 +53,20 @@ a {
 
 
 }
+
+@media (max-width:768px) {
+
+  h1{
+    padding: 70px;
+  }
+  div img{
+
+height:200px ;
+width:270px ;
+
+}
+html,body{
+  height: 1200px;
+}
+}
+
