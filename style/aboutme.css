@@ -14,55 +14,110 @@ h1, h2, h3, h4, h5, p{color:#fff; padding-bottom: 30px;}
 
 .intro-text{text-transform: uppercase;font-size: 40px;font-weight: bold;}
 
+.button{
+  padding: 18px 28px; 
+  background: #316bff; 
+  color: #fff; 
+  display: inline-block;
+  border-radius: 4px;
+  transition: all .6s ease;
+  text-decoration: none;
+}
+
 html,body,main{
   background:linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9));
   background-size: cover;
 }
 
 html, body {
-    height: 1000px;
+    height:100%;
     width: 100%;
     margin: 0;
     
 }
 
-html{  
-    font-family: 'Inter';
-    font-weight: bold;
-    color: white;
-    text-align: center;
+  .header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
     
   }
-
+  
+  .logo{
+   z-index:1;
+   padding-top: 22px;
+   padding-left: 70px;
+   padding-right: 70px;
+  }
+  
+  .menu{
+    width: 100%;
+    z-index:0;
+    padding-top: 15px;
+    padding-left: 25px;
+    transition: all 1s cubic-bezier(.215, .61,.355,1);
+  }
+  
+  .menu li{display: inline-block;}
+  .menu li a{color: #fff;padding: 50px;display: block;}
+  
+  .flex-split {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+  
+  .rel {
+    position: fixed;
+    right:0;
+    margin-top:50px;
+    margin-right: 85px;
+    transition: all .6s ease;
+    display: block;
+    text-decoration: none;
+    padding: 18px 28px; background: #316bff; color: #fff; display: inline-block;border-radius: 4px;
+  }
+  
+  .cta .rel:hover{
+    box-shadow: 0 0 0 5vw #333 inset;
+  }
+  
 h1{
- padding: 80px;
-
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 350px;
 }
 
-div {
-
- margin-top: 60px;
- padding: 10px;
-
+.fotoprofilo {
+ position: absolute;
+ margin-top: 280px;
+ margin-left: 550px;
 }
 
 p {
+ position: absolute;
  text-align: center;
- margin-top: 50px;
- margin-bottom: 20px;
+ margin-top: 550px;
+ margin-left: 320px;
 
 }
 
 
-ul li{
+.main{
+  position: absolute;
   text-align: left;
   margin-left: 70px;
-  padding: 15px;
+  color: #fff;
+  margin-top: 620px;
   
 }
 
 ol, ul {
   list-style: inherit;
+  
 }
 @media (max-width:768px) {
   h1{

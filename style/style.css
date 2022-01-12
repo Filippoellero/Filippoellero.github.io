@@ -13,7 +13,15 @@ h1, h2, h3, h4, h5, p{color:#fff; padding-bottom: 30px;}
 
 .intro-text{font-size: 40px;font-weight: bold;}
 
-.button{padding: 18px 28px; background: #316bff; color: #fff; display: inline-block;border-radius: 4px}
+.button{
+  padding: 18px 28px; 
+  background: #316bff; 
+  color: #fff; 
+  display: inline-block;
+  border-radius: 4px;
+  transition: all .6s ease;
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .big-text{font-size: 40px;}
@@ -50,11 +58,25 @@ padding-right: 70px;
 .menu li{display: inline-block;}
 .menu li a{color: #fff;padding: 50px;display: block;}
 
-.cta {
+.flex-split {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.rel {
   position: fixed;
   right:0;
-  padding-top:50px;
-  padding-right: 40px;
+  margin-top:50px;
+  margin-right: 40px;
+  transition: all .6s ease;
+  display: block;
+  text-decoration: none;
+  padding: 18px 28px; background: #316bff; color: #fff; display: inline-block;border-radius: 4px;
+}
+
+.cta .rel:hover{
+  box-shadow: 0 0 0 5vw #333 inset;
 }
 
 .hamburger{display: none;}
@@ -101,6 +123,10 @@ padding-right: 70px;
   padding: 30px;
   text-align: center;
 
+}
+
+.hero .button:hover{
+  box-shadow: 0 0 0 5vw #333 inset;
 }
 
 .hero__content h1
