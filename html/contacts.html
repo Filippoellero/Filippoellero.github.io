@@ -48,9 +48,6 @@
       <img src="../src/insta logo.png" alt="image" height="20" width="20" href="https://www.instagram.com/filippo.ellero">
      </div>
 
-     <div class="function">
-      <img src="../src/email logo.png" alt="image" height="15" width="20" href="">
-     </div>
     </div>
     <div class="normal-text">
      <a href="https://github.com/Filippoellero">Github</a>
@@ -60,12 +57,32 @@
      <a href="https://www.instagram.com/filippo.ellero">Instagram</a>
      </div>
 
-    <div class="min">
-     <a href="mailto:filippoellero99@gmail.com">Mail</a>
-    </div>
+    <section id="modulo">
+      <div class="content">
+        <h1>Contattami</h1>
+        <form action="dati.php" method="post">
+          <ul>
+            <li class="uno">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome" class="testo" required>
+            </li>
+            
+            <li class="due">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" class="testo" required>
+            </li>
 
+            <li class="tre">
+              <label for="testo">Messaggio</label>
+              <textarea name="testo" id="testo"></textarea>
+            </li>
 
-
-
+            <li class="quattro">
+              <input type="submit" value="richiedi informazioni" class="pulsante">
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
 </body>
 </html>

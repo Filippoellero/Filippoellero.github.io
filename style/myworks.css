@@ -112,7 +112,7 @@ html, body {
   margin-top: 700px;
   margin-left: 960px;
   padding: 8px 17px; 
-  background: #316bff; 
+  background: rgba(22, 22, 22, 0.2); 
   color: #fff; 
   border-radius: 15px;
   transition: all .9s ease;
@@ -130,7 +130,7 @@ html, body {
   margin-top: 700px;
   margin-left: 302px;
   padding: 8px 17px; 
-  background: #316bff; 
+  background: rgba(22, 22, 22, 0.2); 
   color: #fff; 
   border-radius: 15px;
   transition: all .9s ease;

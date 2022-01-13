@@ -92,14 +92,15 @@ h1{
   position: absolute;
   text-align: center;
   display: inline-block;
-  margin-top: 470px;
-  margin-left: 262px;  
+  margin-top: 510px;
+  margin-left: 220px;  
   padding: 8px 17px; 
-  background: #316bff; 
+  background: rgba(22, 22, 22, 0.2); 
   color: #fff; 
   border-radius: 15px;
   transition: all .9s ease;
   text-decoration: none; 
+  border: solid 1px #000;
 }
 
 .normal-text:hover{
@@ -110,45 +111,26 @@ h1{
   position: absolute;
   text-align: center;
   display: inline-block;
-  margin-top: 470px;
-  margin-left: 649px;
+  margin-top: 510px;
+  margin-left: 1100px;
   font-weight: bold;
   padding: 8px 17px; 
-  background: #316bff; 
+  background: rgba(22, 22, 22, 0.2); 
   color: #fff; 
   border-radius: 15px;
   transition: all .9s ease;
   text-decoration: none;
+  border: solid 1px #000;
 }
 
 .meta:hover{
-  box-shadow: 0 10vw 0 #333 inset;
-}
-
-.min{
-  position: absolute;
-  text-align: center;
-  display: inline-block;
-  margin-top: 470px;
-  margin-left: 1072px;
-  font-weight: bold;
-  padding: 8px 17px; 
-  background: #316bff; 
-  color: #fff; 
-  border-radius: 15px;
-  transition: all .9s ease;
-  text-decoration: none;
-
-}
-
-.min:hover{
   box-shadow: -20vw 0 0 #333 inset;
 }
 
 .main{
   position: absolute;
-  margin-top: 445px;
-  margin-left: 250px;
+  margin-top: 485px;
+  margin-left: 209px;
   display: inline-block;
   
   
@@ -156,19 +138,120 @@ h1{
 
 .click{
   position: absolute;
-  margin-top: 445px;
-  margin-left: 650px;
+  margin-top: 485px;
+  margin-left: 1100px;
   display: inline-block;
+}
+
+.content{
+  padding: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  float: left;
+}
+
+#modulo{
+  margin-top: 335px;
+  margin-left: 532px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  color:#fff;
+  overflow: auto;
+  border: solid 1px #000;
+}
+
+#modulo h1{
+  color: #fff;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#modulo ul{
+  list-style: none;
+  width: 100%;
+ 
+
+}
+
+#modulo ul li{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+
+
+}
+
+#modulo ul li.tre,#modulo ul li.quattro{
+  float: none;
+  clear: left;
+  width: 100%;
+}
+
+#modulo ul li.uno{
+  margin-right: 1%;
+  margin-top: 40px;
+}
+
+#modulo ul li.quattro{
+  text-align: center;
   
 }
 
-.function{
-  position: absolute;
-  margin-top: 445px;
-  margin-left: 1050px;
-  display: inline-block;
-  
+#modulo ul li label{
+  display: block;
+  padding-bottom: 5px;
+  width: 50%;
+  padding: 10px 0;
 }
+
+#modulo ul li input{
+  border: solid 1px #000;
+  background: #fff; 
+  color:#000; 
+  float: left;
+ 
+}
+
+#modulo ul li .testo{
+width: 100%;
+height:25px;
+box-sizing: border-box;
+
+}
+
+#modulo ul li textarea{
+  color:#000;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  border: solid 1px #000;
+  box-sizing: border-box;
+
+}
+
+#modulo ul li .pulsante{
+  color:#fff;
+  background: rgba(255, 255, 255, 0.2);
+  border: solid 1px #000;
+  text-transform: uppercase;
+  cursor:pointer;
+  font-weight: bold;
+  transition: 0.5s;
+  margin-top: 10px;
+  margin-left: 0.5px;
+
+}
+
+#modulo ul li .pulsante:hover{
+  background:rgba(255, 255, 255, 0.2);
+  color:#000;
+  border: solid 2px #a3a3a3;
+}
+
+
+
 
 @media (max-width:768px) {
 h1{
